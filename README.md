@@ -31,6 +31,8 @@ A modern, responsive React application for user account management with secure a
 - **Reactstrap**: Bootstrap-based UI components
 - **Feather Icons**: Beautiful, consistent icons
 - **Local Storage API**: For data persistence
+- **404 Error Handling**: Custom 404 Not Found page for undefined routes
+
 
 ## Project Structure
 
@@ -40,7 +42,8 @@ src/
 │   ├── AccountPage.jsx      # User account dashboard
 │   ├── EditAccountPage.jsx  # Account editing interface
 │   ├── LoginPage.jsx        # User login interface
-│   └── RegistrationPage.jsx # New user registration
+│   ├── RegistrationPage.jsx # New user registration
+│   └── NotFoundPage.jsx     # 404 error page
 ├── utils/
 │   └── localStorageUtils.js # Local storage management
 └── style.css               # Custom styles
