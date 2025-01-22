@@ -4,6 +4,7 @@ import LoginPage from "./components/LoginPage"
 import RegistrationPage from "./components/RegistrationPage"
 import AccountPage from "./components/AccountPage"
 import EditAccountPage from "./components/EditAccountPage"
+import NotFoundPage from "./components/NotFoundPage"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/register" element={<RegistrationPage />} />
         <Route path="/account" element={<AccountPage />} />
         <Route path="/edit-account" element={<EditAccountPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
   )
