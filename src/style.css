@@ -1,0 +1,11 @@
+.bold-blue-link {
+  color: #007bff; /* Custom bold blue color */
+  font-weight: bold; /* Makes the text bold */
+  text-decoration: none; /* Removes underline (optional) */
+}
+
+.bold-blue-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Adds underline on hover (optional) */
+}
+
